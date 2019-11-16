@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/z"
+    tools:context=".TrangChu">
+
+
+    <Button
+        android:id="@+id/btnBando_id"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        android:background="#fff"
+        android:layout_marginTop="135dp"
+        android:layout_marginStart="20dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:paddingEnd="10dp"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnSapxep_id"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        android:background="#fff"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="20dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:paddingEnd="10dp"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:id="@+id/btnDangbai_id"
+        android:layout_width="318dp"
+        android:layout_height="90dp"
+        android:background="#fff"
+        android:layout_marginTop="315dp"
+        android:layout_marginStart="20dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:paddingEnd="10dp"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <Button
+        android:id="@+id/btnQuantri_id"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        android:background="#fff"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="20dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:paddingEnd="10dp"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#fff"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:text="Ho Chi Minh University of Technology"
+        android:textColor="#fff"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_phone_android_black_24dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_sort_black_24dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_add_shopping_cart_black_24dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/ic_control_point_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bản đồ"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sắp xếp"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng bài"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản trị viên"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Vị trí nơi bạn tìm kiếm trên bản đồ"
+        android:textSize="11sp"
+        android:textColor="#2d2d2d"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="80dp"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Phân chia tìm kiếm của bạn"
+        android:textSize="11sp"
+        android:textColor="#2d2d2d"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="80dp"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng thông tin chi tiết về sản phẩm và địa chỉ của bạn. Mọi người có thể tìm kiếm và sử dụng"
+        android:textSize="11sp"
+        android:textColor="#2d2d2d"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="80dp"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Quản lý và hỗ trợ"
+        android:textSize="11sp"
+        android:textColor="#2d2d2d"
+        android:layout_marginTop="445dp"
+        android:layout_marginStart="80dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="2px"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="70dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="2px"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="230dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoặc bỏ qua đến"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tour Guide"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

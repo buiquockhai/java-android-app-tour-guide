@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#eee"/>
+
+    <TextView
+        android:id="@+id/txtLineName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="tencuahang"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtLineAddress"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="diachi"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="thoigian"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtLineDisscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="200dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="giamgia"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

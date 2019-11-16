@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="Hình ảnh được chia sẻ"
+            android:textColor="#2d2d2d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="280dp"
+            android:layout_height="180dp"
+            android:background="#124191"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="180dp"
+            android:background="#124191"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Images"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Hình ảnh giới thiệu sản phẩm và địa điểm"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"/>
+
+        <!--=============================================================-->
+
+        <ImageView
+            android:id="@+id/imageview_id"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a"
+            android:layout_marginStart="20dp" />
+    </RelativeLayout>
+
+
+
+</ScrollView>

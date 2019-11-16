@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:text="Thống kê cho bạn"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:background="#124191"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="28dp"
+        android:layout_height="180dp"
+        android:background="#124191"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="210dp"/>
+
+    <TextView
+        android:layout_width="28dp"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="210dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:src="@drawable/ic_widgets_black_244dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities"
+        android:textSize="11sp"
+        android:textColor="#2d2d2d"
+        android:layout_marginTop="225dp"
+        android:layout_marginStart="70dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analyst"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Thống kê về chất lượng dịch vụ và sản phẩm"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btnanalyst_id"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="275dp"
+        android:background="@drawable/tv_design"
+        android:drawableEnd="@drawable/ic_navigate_next_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thống kê số sao về sản phẩm"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2d2d2d"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="290dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thử nghiệm đánh giá của bạn"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        android:textColor="#2d2d2d"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="315dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_star_black_244dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="295dp"/>
+
+    <Button
+        android:id="@+id/btncomment_id"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:background="@drawable/tv_design"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        android:paddingEnd="10dp"
+        android:drawableEnd="@drawable/ic_navigate_next_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bình luận đánh giá về sản phẩm"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2d2d2d"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="375dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bình luận và giúp đỡ"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        android:textColor="#2d2d2d"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="400dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_mode_comment_black_244dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="380dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_home1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            android:background="#eee"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="75dp"
+            android:text="Bài đăng của bạn"
+            android:textColor="#2d2d2d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="115dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="125dp"
+            android:text="Tên của hàng *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="145dp"
+            android:text="VD: Google, Alibaba, Amazon, ..."
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtStoreName"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="235dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="245dp"
+            android:text="Thời gian hoạt động *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="265dp"
+            android:text="VD: 7:00 AM - 10:00 PM"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtActiveTime"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="355dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="365dp"
+            android:text="Địa chỉ *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="385dp"
+            android:text="VD: 123 Điện Biên Phủ, Hồ Chí Minh"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="420dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="475dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="485dp"
+            android:text="Số điện thoại *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="505dp"
+            android:text="VD: 01216996332"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="540dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="595dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="605dp"
+            android:text="Mô tả sản phẩm *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="625dp"
+            android:text="VD: Chất lượng tốt, giá cả cạnh tranh"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="660dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="715dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="725dp"
+            android:text="Chính sách khuyến mãi *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="745dp"
+            android:text="VD: 10, 20, 30, ... (tương ứng phần trăm)"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtDiscount"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="780dp"
+            android:textSize="15sp"
+            android:hint="Nhập thông tin"
+            android:maxLength="35"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="835dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="845dp"
+            android:text="Loại sản phẩm *"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="865dp"
+            android:text="Chọn sản phẩm trong danh mục"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="318dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="900dp"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgPicture"
+            android:layout_width="318dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="950dp"
+            tools:ignore="MissingPrefix"
+            app:srcCompat="@drawable/ic_image_black_24dp"
+            android:background="@drawable/design_image"
+            android:layerType="software"/>
+
+        <ImageButton
+            android:id="@+id/btnChoose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1120dp"
+            android:layout_centerHorizontal="true"
+            android:background="#eee"
+            app:srcCompat="@drawable/ic_file_upload_black_24dp"/>
+
+
+
+        <!--==========================================================-->
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_canceldesign"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="1170dp"
+            android:text="Xóa"
+            android:textColor="#2d2d2d"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="1170dp"
+            android:text="Đăng bài"
+            android:onClick="xuLyCapNhat"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="1190dp"/>
+
+        <TextView
+            android:id="@+id/selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

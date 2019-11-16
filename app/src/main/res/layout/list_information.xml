@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:text="Thông tin về địa điểm"
+        android:textColor="#2d2d2d"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:background="#124191"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageButton
+        android:id="@+id/report_post"
+        android:layout_width="28dp"
+        android:layout_height="60dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:src="@drawable/ic_bug_report_black_24dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informations"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"/>
+
+    <!--=======================================================-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn của bạn"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/tvdiachi_id"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="115dp"
+        android:textSize="12sp"
+        android:textColor="#2d2d2d"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_location_on_black_24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="115dp"/>
+
+    <!--=======================================================-->
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/tvgiamgia_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="190dp"
+        android:textSize="12sp"
+        android:textColor="#2d2d2d"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_near_me_black_24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="185dp"/>
+
+    <!--=======================================================-->
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:id="@+id/tvthoigian_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="260dp"
+        android:textSize="12sp"
+        android:textColor="#2d2d2d"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_timer_black_24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="255dp"/>
+
+    <!--=======================================================-->
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="310dp"/>
+
+    <TextView
+        android:id="@+id/tvsodienthoai_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="330dp"
+        android:textSize="12sp"
+        android:textColor="#2d2d2d"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_phone_black_24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="325dp"/>
+
+    <!--=======================================================-->
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"/>
+
+    <TextView
+        android:id="@+id/tvghichu_id"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="395dp"
+        android:textSize="12sp"
+        android:textColor="#2d2d2d"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_notifications_active_black_24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="395dp"/>
+
+    <!--=======================================================-->
+
+    <Button
+        android:id="@+id/backMap_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_ovaldesign"
+        android:drawableStart="@drawable/ic_send_black_24dp"
+        android:paddingStart="17dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="410dp"
+         />
+
+
+</RelativeLayout>

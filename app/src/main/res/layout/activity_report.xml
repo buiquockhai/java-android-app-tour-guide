@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".report"
+    android:orientation="vertical"
+    android:background="@drawable/z">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5CCCD0D5"/>
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="340dp"
+        android:background="#eee"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng bài thành công"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/ic_check_black_24dp"
+        android:layout_marginTop="198dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="3px"
+        android:background="#2d2d2d"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="40dp"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:srcCompat="@drawable/ic_help_black_24dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="292dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn có muốn tiếp tục"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:layout_marginTop="292dp"
+        android:layout_marginStart="140dp"
+        android:textColor="#2d2d2d"/>
+    <!--==========================================================================-->
+    <Button
+        android:id="@+id/btnContinue_id"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_canceldesign"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="350dp"
+        android:text="Tiếp tục"
+        android:textColor="#2d2d2d"
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="350dp"
+        android:text="Đăng xuất"
+        android:onClick="onClick"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <!--==========================================================================-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#fff"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:text="Ho Chi Minh University of Technology"
+        android:textColor="#fff"
+        android:textSize="12sp"/>
+
+
+
+
+
+</RelativeLayout>

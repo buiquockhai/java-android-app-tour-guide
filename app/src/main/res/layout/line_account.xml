@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#eee"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="Tài khoản:"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="Mật khẩu:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtTaiKhoan"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="110dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="tencuahang"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtMatKhau"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="110dp"
+        android:textColor="#2d2d2d"
+        android:textSize="13sp"
+        android:text="diachi"
+        android:textStyle="bold"/>
+
+
+
+
+
+</RelativeLayout>

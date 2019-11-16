@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_details_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="75dp"
+            android:text="Chi tiết phản hồi"
+            android:textColor="#2d2d2d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="115dp"/>
+
+        <TextView
+            android:id="@+id/tvnumstar_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="135dp"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:text="Chi tiết"
+            android:textColor="#2d2d2d"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="235dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="245dp"
+            android:text="Tên người đánh giá (nếu có bình luận)"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="265dp"
+            android:text="Cho phép chúng tôi xác định được bạn"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!--==========================================================-->
+
+        <EditText
+            android:id="@+id/edtnguoicmt_id"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="305dp"
+            android:textSize="15sp"
+            android:hint="Nguyễn Văn A"
+            android:maxLength="35"/>
+
+        <!--==========================================================-->
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="360dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="370dp"
+            android:text="Bình luận về sản phẩm"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="390dp"
+            android:text="Chi sẻ ý kiến của bạn với mọi người"
+            android:textColor="#2d2d2d"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!--==========================================================-->
+
+        <EditText
+            android:id="@+id/edtbinhluan_id"
+            android:theme="@style/EditTextTheme"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="430dp"
+            android:textSize="15sp"
+            android:hint="Nhập bình luận"
+            android:maxLength="135"/>
+
+        <Button
+            android:id="@+id/btnhuycmt_id"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_canceldesign"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="505dp"
+            android:text="Hủy"
+            android:textColor="#2d2d2d"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/btndangcmt_id"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="505dp"
+            android:text="Đăng bài"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="12sp"/>
+
+        <!--==========================================================-->
+        <!--==========================================================-->
+
+    </RelativeLayout>
+
+</ScrollView>
